@@ -86,7 +86,7 @@ const Home = (props) => {
                                 onChange={e => setData({...data, confirm: e.target.value})} />
                         </div>
                     </div>
-                    <button type="submit" className="btn" onClick={handleSubmit} >U[date</button>
+                    <button type="submit" className="btn" onClick={handleSubmit} >Update</button>
                 </form>
             </div>
         )
